@@ -28,6 +28,7 @@ This application is built with the following technologies:
 6. Generate new Key with this command: `php artisan key:generate`
 7. Import the database tables with this command: `php artisan migrate` or use the kinetic-test.sql file in 'db' folder of this project
 8. Run the Seeder to insert demo into the database whcih you can use for testing the application. Run the seeder with the following artisan command<br>
-    php artisan db:seed
-9. Start the application with `php artisan serve`
+    `php artisan db:seed`
+9.  Run `php artisan storage:link` to ensure that you don't have issues with file upload to your storage folder.
+10. Start the application with `php artisan serve`
 	Visit localhost:8000/ to see the front-end of the application

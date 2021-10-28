@@ -32,3 +32,22 @@ This application is built with the following technologies:
 9.  Run `php artisan storage:link` to ensure that you don't have issues with file upload to your storage folder.
 10. Start the application with `php artisan serve`
 	Visit localhost:8000/ to see the front-end of the application
+
+### This is how this application works
+#An unauthenticated user can perform the following actions on this application
+1. Access the list of available posts with pagination
+2. Create new post
+3. Update an existing post
+4. Delete an existing post
+5. Sign up for a new account
+6. Login to an already created account
+
+#An authenticated user can perform the following actions on this application
+1. Access the list of all the available categories
+2. Create new categories
+3. Update and already created category
+4. Delete an already created category
+5. Create new post
+6. Update an existing post
+7. Delete an existing post
+8. Logout from already created account

@@ -26,7 +26,7 @@ This application is built with the following technologies:
 	DB_USERNAME=YOUR_SERVER_USERNAME<br>
 	DB_PASSWORD=YOUR_DATABASE_PASSWORD (Leave it empty if you have none)<br>
 6. Generate new Key with this command: `php artisan key:generate`
-7. Import the database tables with this command: `php artisan migrate` or use the kinetic-test.sql file in 'db' folder of this project
+7. Import the database tables with this command: `php artisan migrate` or use the `os-system.sql file` in 'db' folder of this project
 8. Run the Seeder to insert demo into the database whcih you can use for testing the application. Run the seeder with the following artisan command<br>
     `php artisan db:seed`
 9.  Run `php artisan storage:link` to ensure that you don't have issues with file upload to your storage folder.

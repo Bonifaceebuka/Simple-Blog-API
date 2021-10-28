@@ -34,7 +34,7 @@ This application is built with the following technologies:
 	Visit localhost:8000/ to see the front-end of the application
 
 ### This is how this application works
-#An unauthenticated user can perform the following actions on this application
+##An unauthenticated user can perform the following actions on this application
 1. Access the list of available posts with pagination
 2. Create new post
 3. Update an existing post
@@ -42,7 +42,7 @@ This application is built with the following technologies:
 5. Sign up for a new account
 6. Login to an already created account
 
-#An authenticated user can perform the following actions on this application
+##An authenticated user can perform the following actions on this application
 1. Access the list of all the available categories
 2. Create new categories
 3. Update and already created category
